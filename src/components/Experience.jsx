@@ -2,11 +2,11 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import { SectionWraper } from "../hoc";
+import { experiences } from "../constants";
+import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { experiences } from "../constants";
-import { SectionWraper } from "../hoc";
-import { textVariant } from "../utils/motion";
 
 import "react-vertical-timeline-component/style.min.css";
 
