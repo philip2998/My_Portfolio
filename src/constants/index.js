@@ -116,55 +116,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Full Stack Software Engineer",
+    company_name: "FooDoo",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Revised, modularized, and updated old code bases to modern development standards, reducing operating costs, and improving functionality.",
+      "Collaborated with project managers to select ambitious, but realistic coding milestones on prerelease software project development.",
+      "Collaborated on stages of the systems development lifecycle from requirement gathering to production releases.",
+      "Built databases and table structures for web applications.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "BetConstruct",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Dec 2021 - Jan 2023",
+    points: [
+      "Sorted and organized files, spreadsheets, and reports. Analyzed problems and worked with teams to develop solutions.",
+      "Interacted with customers by phone, email, or in person to provide information.",
+      "Proved successful working within tight deadlines and a fast-paced environment.",
+      "Used critical thinking to break down problems, evaluate solutions, and make decisions",
+    ],
+  },
+  {
+    title: "Junior Software Engineer",
+    company_name: "Booking App",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Sep 2021 - Dec 2021",
+    points: [
+      "I've mostly had experience working on the frontend side and used Angular",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Contributed ideas and suggestions in team meetings and delivered updates on deadlines, designs, and enhancements.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Intern",
+    company_name: "Peter Pazmany University",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Oct 2020 - Jul 2021",
+    points: [
+      "I worked with faculty students on creating a web application using Angular and Express.js. ",
+      "Demonstrated a high level of initiative and creativity while tackling difficult tasks. Passionate about learning and committed to continual improvement.",
+      "Cultivated interpersonal skills by building positive relationships with others.",
+      "Used strong analytical and problem-solving skills to develop effective solutions for challenging situations",
+      "Proven ability to learn quickly and adapt to new situations",
     ],
   },
 ];
@@ -262,4 +263,28 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const projectText = `
+Following projects showcases my skills and experience through real-world examples
+of my work. Each project is briefly described with links to code repositories and live
+demos in it. It reflects my ability to solve complex problems, work with different
+technologies, and manage projects effectively.
+`;
+
+const aboutText = `
+I am an experienced full-stack JavaScript software engineer with a robust three-year
+ track record in the field. My passion for programming and problem-solving has propelled
+me to excel in both front-end and back-end development. Over the course of my career,
+I have had the privilege of working on diverse projects, ranging from crafting dynamic 
+and responsive user interfaces with modern JavaScript frameworks like React, to 
+architecting robust server-side applications using Node.js.
+`;
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  projectText,
+  aboutText,
+};

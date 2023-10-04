@@ -1,9 +1,7 @@
-import {
-  EarthCanvas,
-  BallCanvas,
-  ComputersCanvas,
-  StarsCanvas,
-} from "./canvas";
+import ComputerCanvas from "./canvas/ComputerCanvas/ComputerCanvas";
+import EarthCanvas from "./canvas/EarthCanvas/EarthCanvas";
+import StarsCanvas from "./canvas/StarsCanvas/StarsCanvas";
+import BallCanvas from "./canvas/BallCanvas/BallCanvas";
 import Experience from "./Experience";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
@@ -24,6 +22,6 @@ export {
   Contact,
   EarthCanvas,
   BallCanvas,
-  ComputersCanvas,
+  ComputerCanvas,
   StarsCanvas,
 };

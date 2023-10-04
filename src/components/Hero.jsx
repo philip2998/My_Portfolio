@@ -1,4 +1,4 @@
-import { ComputersCanvas } from "./canvas";
+import { ComputerCanvas } from "./canvas";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 
@@ -15,16 +15,16 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I am <span className="text-[#915EFF]">Philip</span>
+            Hi, I&apos;m <span className="text-[#915EFF]">Philip</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
+            I am an experienced full-stack <br className="sm:block hidden" />
+            JavaScript software engineer
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      <ComputerCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
