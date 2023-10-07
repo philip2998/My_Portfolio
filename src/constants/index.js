@@ -15,13 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  pazmany,
+  fooDoo,
+  betConstruct,
+  booking,
+  foodOrder,
+  blockchain,
+  hybridOps,
   threejs,
 } from "../assets";
 
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "JavaScript Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Back-end Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Front-end Developer",
     icon: creator,
   },
 ];
@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "Full Stack Software Engineer",
     company_name: "FooDoo",
-    icon: starbucks,
+    icon: fooDoo,
     iconBg: "#383E56",
     date: "Jan 2023 - Present",
     points: [
@@ -131,7 +131,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "BetConstruct",
-    icon: tesla,
+    icon: betConstruct,
     iconBg: "#E6DEDD",
     date: "Dec 2021 - Jan 2023",
     points: [
@@ -144,7 +144,7 @@ const experiences = [
   {
     title: "Junior Software Engineer",
     company_name: "Booking App",
-    icon: shopify,
+    icon: booking,
     iconBg: "#383E56",
     date: "Sep 2021 - Dec 2021",
     points: [
@@ -157,7 +157,7 @@ const experiences = [
   {
     title: "Intern",
     company_name: "Peter Pazmany University",
-    icon: meta,
+    icon: pazmany,
     iconBg: "#E6DEDD",
     date: "Oct 2020 - Jul 2021",
     points: [
@@ -199,16 +199,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Blockchain App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Explore the decentralized world with ease, securely manage your cryptocurrencies, and effortlessly track transactions. Experience the future of finance at your fingertips with our user-friendly and innovative blockchain application.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -216,13 +216,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: blockchain,
+    source_code_link: "https://github.com/philip2998/blockchain-app",
   },
   {
-    name: "Job IT",
+    name: "Food Order",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Discover diverse cuisines with our intuitive search, place orders with a few taps, and track your meal in real-time. Enjoy the convenience of secure payment options and have your favorite dishes delivered straight to your doorstep.",
     tags: [
       {
         name: "react",
@@ -233,32 +233,32 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MERN",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: foodOrder,
+    source_code_link: "https://github.com/philip2998/food-ordering-app",
   },
   {
-    name: "Trip Guide",
+    name: "HybridOps App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Revolutionize collaboration with our DevOps app, automating workflows seamlessly. Scale applications effortlessly while enhancing communication between teams. Deliver high-quality software at unprecedented speed with our unified platform.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "express.js",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: hybridOps,
     source_code_link: "https://github.com/",
   },
 ];
@@ -272,7 +272,7 @@ technologies, and manage projects effectively.
 
 const aboutText = `
 I am an experienced full-stack JavaScript software engineer with a robust three-year
- track record in the field. My passion for programming and problem-solving has propelled
+track record in the field. My passion for programming and problem-solving has propelled
 me to excel in both front-end and back-end development. Over the course of my career,
 I have had the privilege of working on diverse projects, ranging from crafting dynamic 
 and responsive user interfaces with modern JavaScript frameworks like React, to 
